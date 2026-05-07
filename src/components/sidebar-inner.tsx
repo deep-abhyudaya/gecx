@@ -497,7 +497,7 @@ export function SidebarInner({
       <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
         <SheetContent
           side="left"
-          className="p-0 w-72 border-r border-border bg-sidebar flex flex-col"
+          className="p-0 w-[75vw] border-r border-border bg-sidebar flex flex-col"
         >
           <SheetTitle className="sr-only">Navigation</SheetTitle>
           <NavContent role={role} initialCounts={initialCounts} onNavClick={() => setMobileOpen(false)} />
